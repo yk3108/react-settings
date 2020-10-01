@@ -136,6 +136,7 @@
     "homepage": "https://myusername.github.io/my-app",
     "scripts": {
       "start": "cross-env PUBLIC_URL=. react-scripts start",
+      "devbuild": "cross-env PUBLIC_URL=. react-scripts build",
       "build": "react-scripts build",
       "deploy": "gh-pages -d build"
     }
